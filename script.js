@@ -19,7 +19,6 @@ create();
 function reset() {
     rounds = 1;
     infectedHouses = 1;
-    infectedHouses = 1;
     let rand = Math.floor(Math.random() * 100);
     document.querySelector("#house"+rand).className = "Zhouse";
 
